@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>Login</h1>
+
+            <div class="grupo">
+                <input required type="text" id="name" >
+                <span class="error"></span>
+                <label for="">Nome</label>
+            </div>
+            <div class="grupo">
+                <input required type="email" id="email" >
+                <span class="error"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input required type="password" id="password" >
+                <span class="error"></span>
+                <label for="">Senha</label>
+            </div>
+            
+            <button type="submit">Inscreva-se</button>
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
